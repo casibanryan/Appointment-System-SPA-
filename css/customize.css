@@ -1,0 +1,53 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.bg-sidebar-header {
+    background-color: #074E79;
+}
+
+.bg-sidebar {
+    background-color: #0775A0;
+}
+
+a {
+    color: #074E79;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #074E79;    
+}
+
+.sidebar-link:hover {
+    background-color: #074E79;
+    font-weight: 900;
+}
+
+
+/* customize table so that i can put a form inside a table */
+.div-table {
+    width: auto;
+    border-spacing: 5px;
+}
+
+.div-table-row {
+    display: table-row;
+    width: auto;
+    clear: both;
+}
+
+.div-table-col {
+    float: left;
+    /* fix for  buggy browsers */
+    display: table-column;
+    margin-right: 0.5rem !important;
+}
+.div-table-header {
+    float: left;
+    /* fix for  buggy browsers */
+    display: table-column;
+    width: 200px;
+}
